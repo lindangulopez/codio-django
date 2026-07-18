@@ -1,4 +1,7 @@
 # Virtual environment
+venv/
+.venv/
+env/
 django/
 
 # Python cache
@@ -16,3 +19,11 @@ db.sqlite3
 
 # macOS
 .DS_Store
+
+# Django generated files
+staticfiles/
+media/
+*.log
+
+# Assignment answers
+assessment/
